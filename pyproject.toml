@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "puente"
+version = "1.0.0"
+description = "Conecta variables y funciones de Python puro con HTML mediante IDs, sin frameworks ni dependencias."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "al0ne0" }
+]
+
+[tool.setuptools]
+py-modules = ["puente"]
